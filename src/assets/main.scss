@@ -1,2 +1,19 @@
 @import './base.scss';
 @import './reset.scss';
+
+body {
+    font-family: var(--base-font-family);
+    color: var(--base-color);
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 52px;
+    letter-spacing: 0.015em;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 0.015em;
+}
